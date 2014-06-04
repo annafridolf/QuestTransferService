@@ -13,7 +13,7 @@ namespace QuestService
        
         string IQuestService.TestConnection()
         {
-            return "success";
+            return "success connecting";
         }
 
         string IQuestService.PerformQuestTransfer(int questId)
